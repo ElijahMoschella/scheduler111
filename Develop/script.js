@@ -1,7 +1,7 @@
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
-/$(document).ready(function () {
+$(document).ready(function () {
   // listen for save button clicks
   $('.saveBtn').on('click', function () {
     // get nearby values
